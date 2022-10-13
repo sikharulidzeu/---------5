@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header{
+    padding: 10px;
+    height: 94px;
+    background-color: black;
+
+}
+
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    text-indent: -500px;
+    float: left;
+    margin-left: 30px;
+
+}
+
+
+
+
+.hits{
+    margin: 20px;
+}
+header nav{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+header h1 a{
+    display: block;
+width: 70px;
+height: 70px;
+
+}
+
+
+
+header li{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+header li a{
+    padding: 5px 10px;
+    color: #ffffff;
+    position: relative;
+   
+    
+}
+
+
+ header li a::before{
+    content:"" ;
+    width: 0%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+}
+
+header li a:hover:before{
+    width: 100%;
+}
+
+
+
+main{
+    position: relative;
+}
+
+.lolo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+
+
+}
+
+.lolo:hover{
+    background-image:url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.div :hover{
+    box-shadow: 0px 0px 10px#0e0303;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+
+}
+
+
+.insta:hover{
+    background-image: url(../img/insta.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.div{
+    float: left;
+}
+.art{
+    width: 300px;
+    height: 244px;margin: 20px;
+   
+    
+}
+.charcho{
+   border: 2px solid #0e0303;
+   margin: 20px;
+   position: relative;
+   padding-top: 20px;
+}
+
+.charcho h2{
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.charcho .peteg{
+    margin-left: -1px;
+}
+.guli{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-repeat: initial;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.guli:hover{
+    background-image: url(../img/like\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.charchuka{
+    width: 100%;
+    height: 64px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    
+
+}
+
+.div{
+    position: relative;
+}
+.div p{
+    margin: 20px;
+}
+.div .go{
+    text-decoration: underline;
+}
+
+
+
+   
+
+
+
+
+footer .login{
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 580px
+    
+
+}
+
+
+footer{
+    clear: both;
+    padding: 18px;
+    background-color: black;
+    color: #ffffff;
+    height: 3540pxpx;
+}
+footer .pe{
+    color: #ffffff;
+    margin-left: 500px;
+    
+}
+
+footer .pee{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #ffffff;
+    
+}
+
+.kubiki{
+    width: 70px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.pi{
+    margin-left: 500px;
+    margin-left: 600px;
+    
+}
+
+
+/* ------------- about ----------------------- */
+.trasc{
+    display: flex;
+    margin-left: 200px;
+    width: 500px;
+    height: 220px;
+}
+
+.trasc:hover{
+    background-color: darkgrey;
+    box-shadow: 0px 9px 20px #7c7474 ;
+}
+
+.hh{
+    display: flex;
+    margin-left: 200px;
+    width: 520px;
+    height: 20px;
+    
+
+}
+
+.hh h2{
+    margin-right: 150px;
+}
+.dive{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+    height: 220px;
+    margin-left: 200px;
+
+}
+
+.dive:hover{
+    background-color: darkgrey;
+    box-shadow: 0px 9px 20px #7c7474 ;
+}
+
+.dive .play{
+    margin-left: 140px;
+}
+
+
+.dive .pl{
+    margin-left: 200px;
+}
+
+ .muss{
+    width: 100px;
+    height: 300px;
+ }
+
+ .musss{
+    width: 150px;
+    height: 300px;
+
+ }
+ .mu{
+    width: 256px;
+    height: 64px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-left: 430px;
+    margin-bottom: 50px;
+    
+ }
+ .saxeli{
+    display: flex;
+    margin-left: 200px;
+ }
+ .saxeli h2{
+    display: flex;
+   
+
+    
+    }
+.saxeli h2 p{
+    margin-right: 180px;
+    margin-bottom: 30px;
+}
+
+   
+ 
+.bolo{
+    display: flex;
+    margin-left: 200px;
+}
+
+.me{
+    width: 256px;
+    height: 64px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-left: 430px;
+    margin-bottom: 50px; 
+}
+.dasasruli{
+    margin-left: 450px;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+ 
+
+
+
+ 
+ 
